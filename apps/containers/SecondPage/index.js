@@ -12,7 +12,7 @@ export default class SecondPage extends Component{
   render() {
     return (
       <View style={[styles.wrapper, styles.center]}>
-        <Text style={{ fontSize: 13, color: '#f6c200', }}>第二个页面修改</Text>
+        <Text style={{ fontSize: 13, color: '#f6c200', }}>第二个页面(第二次修改)</Text>
         <TouchableWithoutFeedback onPress={() => this.goBack()}>
           <View style={[styles.btnWrapper, styles.center, { marginTop: 20, }]}>
             <Text style={styles.btnTxt}>返回上一页</Text>
